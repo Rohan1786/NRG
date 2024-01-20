@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Construction">
+    <TextView
+        android:id="@+id/Project1"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:text="@string/Project_1"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project2"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:text="@string/Project_2"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project3"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project4"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project5"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project6"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project7"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:id="@+id/Project8"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:text="@string/project_3"
+        android:padding="22dp"
+        android:layout_marginTop="13dp"
+
+        />
+
+</LinearLayout>

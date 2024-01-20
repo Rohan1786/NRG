@@ -4,4 +4,9 @@
     <string name="contract">Contract</string>
     <string name="engineer">Engineer</string>
     <string name="project">Project</string>
+    <string name="project_1">project 1</string>
+    <string name="project_2">Project 2</string>
+    <string name="project_3">Project 3</string>
+    <string name="Project_1">Project_1</string>
+    <string name="Project_2">Project 2</string>
 </resources>
