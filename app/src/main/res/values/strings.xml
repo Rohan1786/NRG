@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NRG</string>
+    <string name="todo">TODO</string>
+    <string name="contract">Contract</string>
+    <string name="engineer">Engineer</string>
+    <string name="project">Project</string>
 </resources>
