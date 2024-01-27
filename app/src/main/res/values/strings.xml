@@ -7,6 +7,8 @@
     <string name="project_1">project 1</string>
     <string name="project_2">Project 2</string>
     <string name="project_3">Project 3</string>
-    <string name="Project_1">Project_1</string>
+    <string name="Project_1">Project 1</string>
     <string name="Project_2">Project 2</string>
+    <string name="welcome_to_nrg_group">WELCOME TO NRG</string>
+    <string name="todo1">TODO</string>
 </resources>
