@@ -11,4 +11,11 @@
     <string name="Project_2">Project 2</string>
     <string name="welcome_to_nrg_group">WELCOME TO NRG</string>
     <string name="todo1">TODO</string>
+    <string name="for_home_screen">For Home Screen</string>
+    <string name="notify">Notify</string>
+    <string name="enter_admin_name">Enter admin name</string>
+    <string name="enter_admin_master_key">Enter Admin Master key</string>
+    <string name="enter_password">Enter password</string>
+    <string name="submit">submit</string>
+    <string name="your_in_construction">your in construction</string>
 </resources>

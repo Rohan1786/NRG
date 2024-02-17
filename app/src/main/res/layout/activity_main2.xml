@@ -54,7 +54,7 @@
         android:layout_marginTop="96dp"
         android:text="@string/welcome_to_nrg_group"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
 
         android:textSize="25dp"
         android:textStyle="bold"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,112 +7,162 @@
     android:orientation="vertical"
     android:padding="8dp"
     tools:context=".Construction"
-    android:background="@color/colorPrimary">
-    <TextView
-        android:id="@+id/Project1"
-        android:textStyle="bold"
+    android:background="@color/black">
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:background="@android:color/white"
-        android:text="@string/Project_1"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
-        android:textColorHighlight="@color/colorPrimary"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Habri_Daba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="34dp"
 
 
-        />
-    <TextView
-        android:id="@+id/Project2"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:background="@android:color/white"
-        android:text="@string/Project_2"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="34dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="90dp"
+            android:text="Habri Daba"
 
-        />
-    <TextView
-        android:id="@+id/Project3"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
+            android:textAlignment="center"
 
-        />
-    <TextView
-        android:id="@+id/Project4"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
 
-        />
-    <TextView
-        android:id="@+id/Project5"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:id="@+id/id1"
 
-        />
-    <TextView
-        android:id="@+id/Project6"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
+            android:layout_below="@+id/Habri_Daba"
+            >
+            <EditText
+                android:id="@+id/expadation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Expadation"
+                android:padding="19dp"
+                android:layout_margin="22dp"
+                android:numeric="decimal"
 
-        />
-    <TextView
-        android:id="@+id/Project7"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
 
-        />
-    <TextView
-        android:id="@+id/Project8"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="33sp"
-        android:textColor="@android:color/black"
-        android:text="@string/project_3"
-        android:padding="22dp"
-        android:layout_marginTop="13dp"
+                android:background="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Balance Payment"
+                android:padding="19dp"
+                android:layout_margin="22dp"
+                android:layout_marginRight="22dp"
+                android:numeric="decimal"
 
-        />
+                android:background="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Total Amount"
+                android:layout_margin="22dp"
+                android:textColor="@color/white"
+                android:padding="19dp"
+                android:numeric="decimal"
 
-</LinearLayout>
+
+                android:background="@color/colorPrimary"
+                />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/JK_Koppa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id1"
+            android:layout_margin="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="34dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="90dp"
+            android:text="J K Koppa"
+
+            android:textColor="@android:color/black"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+android:id="@+id/id2"
+            android:layout_below="@+id/JK_Koppa"
+            >
+            <EditText
+                android:id="@+id/expadation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Expadation"
+                android:padding="19dp"
+                android:layout_margin="22dp"
+                android:numeric="decimal"
+
+
+                android:background="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/payment1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Balance Payment"
+                android:padding="19dp"
+                android:layout_margin="22dp"
+                android:layout_marginRight="22dp"
+                android:numeric="decimal"
+
+                android:background="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/total1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Total Amount"
+                android:layout_margin="22dp"
+                android:textColor="@color/white"
+                android:padding="19dp"
+                android:numeric="decimal"
+
+
+                android:background="@color/colorPrimary"
+                />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/Projects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id2"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="34dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="90dp"
+
+            android:text="+"
+            android:textColor="@android:color/black"
+            android:textSize="90sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+</ScrollView>

@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity2 : AppCompatActivity() {
 
-    private val SPLASH_DELAY: Long = 5000 // 2 seconds
+    private val SPLASH_DELAY: Long = 3000 // 1 seconds
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

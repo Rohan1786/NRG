@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,10 @@
     android:layout_centerInParent="true"
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <GridLayout
         android:layout_width="127dp"
@@ -20,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/menu"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/for_home_screen" />
         <ImageView
             android:id="@+id/calculator"
             android:layout_width="wrap_content"
@@ -28,6 +32,14 @@
             android:src="@drawable/calendar"
             android:contentDescription="@string/todo1" />
 
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:contentDescription="@string/notify"
+            android:src="@drawable/bell"/>
 
 
     </GridLayout>
@@ -64,4 +76,5 @@
         android:src="@drawable/constr"
         tools:ignore="NotSibling" />
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
